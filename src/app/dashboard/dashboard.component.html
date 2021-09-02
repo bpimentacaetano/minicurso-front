@@ -1,0 +1,22 @@
+<p>dashboard works!</p>
+
+
+<div>
+  {{rnadata.crc64}}
+</div>
+
+<div class="icons-container">
+  <button mat-icon-button title="Baixar PDF" (click)="exportPDF()">
+    <mat-icon>picture_as_pdf</mat-icon>
+  </button>
+  <button mat-icon-button title="Baixar Imagem" (click)="exportImage()">
+      <mat-icon>photo</mat-icon>
+  </button>
+  <button mat-icon-button title="Baixar Dados" (click)="exportCrossTab()">
+      <mat-icon>save_alt</mat-icon>
+  </button>
+  <button mat-icon-button title="Baixar Power Point" (click)="exportPowerPoint()">
+      <mat-icon>collections_bookmark</mat-icon>
+  </button>
+</div>
+<div id="viz"></div>
